@@ -1,0 +1,163 @@
+:root {
+  --first-color: #5cc3ff;
+  --second-color: #0e2431;
+}
+
+body {
+  min-height: 2000;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #5cc3ff;
+}
+#Project {
+  padding-top: 70px;
+  background-color: #5cc3ff;
+}
+#organization {
+  padding-top: 70px;
+  background-color: #5cc3ff;
+}
+.contact {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+.alamat {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.text-center {
+  color: black;
+}
+
+/* Navbar */
+.nav-link {
+  transition: 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  transform: translateY(-3px);
+  transition: 0.2s ease-in-out;
+}
+
+/* icon */
+.githubicon {
+  width: 60px;
+  padding: 5px;
+}
+.youtubeicon {
+  width: 60px;
+  padding: 5px;
+}
+.igicon {
+  width: 60px;
+  padding: 5px;
+}
+.fbicon {
+  width: 60px;
+  padding: 5px;
+}
+.waicon {
+  width: 60px;
+  padding: 5px;
+}
+.icon {
+  padding-top: 15px;
+}
+.lead1 {
+  padding-top: 3px;
+  font-family: calibri;
+  font-weight: 700;
+  font-size: large;
+}
+.collapse navbar-collapse {
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #5cc3ff; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 300px;
+  height: 310px;
+  background-size: cover;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  margin: 30px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #403e3e; */
+}
+
+.box-1 span,
+.box-2 span,
+.box-3 span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: #403e3e;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: calibri;
+  font-weight: bold;
+}
+
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2) {
+  color: #403e3e;
+  font-family: myriad pro;
+  font-size: 23px;
+  line-height: 0px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3) {
+  font-family: calibri;
+  color: #403e3e;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  width: 230px;
+  margin: 0px 0px 20px 0px;
+}
+
+.box-1 p:nth-child(4),
+.box-2 p:nth-child(4),
+.box-3 p:nth-child(4) {
+  color: #6d6d6d;
+  font-family: calibri;
+  text-align: center;
+  width: 230px;
+  margin: 0px 0px 20px 0px;
+}
+
+#mycanvas {
+  margin-top: -20px;
+  margin-left: 100px;
+  z-index: 3;
+}
